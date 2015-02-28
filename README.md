@@ -1,4 +1,16 @@
-tiny-brainfuckjs-parser
-=======================
+Tiny brainf*ck parsers
+======================
 
-A tiny, fully functioning Brainfuck parser written in JavaScript
+Tiny, fully functional Brainf*ck parser implementations optimized for code size.
+
+### Tiny BF JavaScript parser
+
+Usage when including B.min.js:
+```JS
+
+output = B('++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.');
+
+console.log('output:', output); // output: Hello World!
+
+```
+
